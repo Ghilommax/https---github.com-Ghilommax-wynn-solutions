@@ -35,21 +35,21 @@ const addItem = (price) => {
  
 adding.addEventListener('click', function(e) {
   console.log('clicked')
-    subtotal.textContent = '';
+    subtotal.textContent = '$0';
    
     subtotal.textContent = `$${addItem(iphoneprice)}`;
    
 })
 add.addEventListener('click', function(e) {
   console.log('clicked')
-    subtotal.textContent = '';
+    subtotal.textContent = '$0';
    
     subtotal.textContent = `$${addItem(iphone11)}`;
 
 })
   remove.addEventListener('click', function(e) {
   console.log('clicked')
-    subtotal.textContent = '';
+    subtotal.textContent = '$0';
     console.log(totalamount)
     if (totalamount > 0) {  subtotal.textContent = `$${removeItem(iphoneprice)}`;  }
    
@@ -57,7 +57,7 @@ add.addEventListener('click', function(e) {
 })
   move.addEventListener('click', function(e) {
   console.log('clicked')
-    subtotal.textContent = '';
+    subtotal.textContent = '$0';
     console.log(totalamount)
     if (totalamount > 0) {  subtotal.textContent = `$${removeItem(iphone11)}`;  }
    
